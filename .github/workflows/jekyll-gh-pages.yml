@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Site Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #00FF00;
+            color: #fff;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #444;
+            overflow: hidden;
+        }
+        li {
+            float: left;
+        }
+        li a {
+           display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #444fff;
+        }
+        /* Hover state styles */
+li a:hover {
+    background-color: blue;
+        }
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        .sub-section {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+   
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Branch</a>
+            <div class="dropdown-content">
+                <a href="#damee-oppireshini">Damee Oppireshini</a>
+                <a href="#damee-gabaa">Damee Gabaa</a>
+                <a href="#damee-inspekshinif-regulatori">Damee Insepekshinif Regulatori</a>
+                <a href="#damee-promotion">Damee Promotion</a>
+            </div>
+        </li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Content for the Home page goes here.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Information about your organization or company goes here.</p>
+    </section>
+
+    <section id="branch">
+        <h2>Branch</h2>
+        <!-- Content for Branch section goes here -->
+    </section>
+
+    <section id="service">
+        <h2>Service</h2>
+        <p>Describe the services your organization offers in this section.</p>
+    </section>
+
+    <section id="news">
+        <h2>News</h2>
+        <p>Latest news and updates can be shared here.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Include your contact information or a contact form for visitors to get in touch.</p>
+    </section>
+
+</body>
+</html>
